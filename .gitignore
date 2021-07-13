@@ -1,6 +1,5 @@
 .DS_Store
 node_modules
-src\components\Carousel.vue
 /dist
 
 # local env files
