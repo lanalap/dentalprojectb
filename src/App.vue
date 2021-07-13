@@ -3,6 +3,7 @@
     <AppTopNavbar />
     <AppNavbar />
     <home />
+    <infosection />
     <appOurService />
     <appFooter />
   </div>
@@ -10,6 +11,7 @@
 
 <script>
 import carousel from "./components/Carousel";
+import info from "./components/Info";
 import topnavbar from "./components/TopNavbar";
 import navbar from "./components/Navbar";
 import OurService from "./components/ourServiceSection/OurService.vue";
@@ -21,6 +23,7 @@ export default {
     AppTopNavbar: topnavbar,
     AppNavbar: navbar,
     home: carousel,
+    infosection: info,
     appOurService: OurService,
     appFooter: footer
   },
@@ -28,6 +31,4 @@ export default {
 </script>
 
 <style>
-
-
 </style>
