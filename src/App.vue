@@ -22,10 +22,12 @@ export default {
     AppNavbar: navbar,
     home: carousel,
     appOurService: OurService,
-    appFooter: footer,
+    appFooter: footer
   },
 };
 </script>
 
 <style>
+
+
 </style>

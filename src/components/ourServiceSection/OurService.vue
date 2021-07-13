@@ -1,17 +1,17 @@
 <template>
-   <section id="section1">
-            <div class="service">
+   <div id="section1">
+            <div class="service1">
                 <div class="note1"><h6>Our services</h6> </div>
             </div>
 
 
-            <div class="notes">
+            <div class="notes1">
 
-            <div id="note2" class="note" >  
+            <div id="note2" class="noteCard" >  
                    
-                       <div><img class="icon" src="@/components/ourServiceSection/Group2.svg" ></div>
+                       <div><img class="iconCard" src="@/components/ourServiceSection/Group2.svg" ></div>
                     
-                    <div class="text">
+                    <div class="text1">
                     <span>Tooth inspection</span> 
                     <p>Comprehensive review of the mouth
                     and detection of broken teeth
@@ -21,11 +21,11 @@
                 </div>
 
 
-                <div id="note3" class="note">
+                <div id="note3" class="noteCard">
                     
-                    <div><img class="icon"  src="@/components/ourServiceSection/Group3.svg" ></div>
+                    <div><img class="iconCard"  src="@/components/ourServiceSection/Group3.svg" ></div>
                   
-                <div class="text">
+                <div class="text1">
                 <span>Tooth removal</span> 
                 <p>Any broken tooth is a threat to the body,
                     so this danger should be removed
@@ -35,22 +35,22 @@
 
 
 
-                <div id="note4" class="note">
+                <div id="note4" class="noteCard">
                       <div>
-                          <img class="icon" src="@/components/ourServiceSection/Group4.svg" ></div>
+                          <img class="iconCard" src="@/components/ourServiceSection/Group4.svg" ></div>
                   
-                <div class="text">
+                <div class="text1">
                 <span>Removal of tartar</span> 
                 <p>Tartar is the enemy of every human being, because through his presence we have unpleasant breath.</p>
                 </div>
             </div>
                 
-                <div id="note5" class="note">
+                <div id="note5" class="noteCard">
                     <div>
-                        <img class="icon" src="@/components/ourServiceSection/Group5.svg" >
+                        <img class="iconCard" src="@/components/ourServiceSection/Group5.svg" >
                     </div>
                   
-                <div class="text">
+                <div class="text1">
                 <span>Polishing and cleaning</span> 
                 <p>A simple and safe polishing treatment improves the health of teeth that
                     will get a better look.</p>
@@ -59,22 +59,22 @@
 
 
 
-                <div id="note6" class="note">
+                <div id="note6" class="noteCard">
                     <div>
-                    <img class="icon" src="@/components/ourServiceSection/Group6.svg" >
+                    <img class="iconCard" src="@/components/ourServiceSection/Group6.svg" >
                 </div>
               
-            <div class="text">
+            <div class="text1">
             <span>Dental implants </span> 
             <p>The best solution when you can not save
                 a healthy tooth and you need to apply artificial solutions.</p>
             </div>
         </div>
-                <div id="note7" class="note"><div>
-                    <img class="icon" src="@/components/ourServiceSection/Group7.svg" >
+                <div id="note7" class="noteCard"><div>
+                    <img class="iconCard" src="@/components/ourServiceSection/Group7.svg" >
                 </div>
               
-            <div class="text">
+            <div class="text1">
             <span>Effective protection </span> 
             <p>The cheapest tooth protection
                 is their cleaning and a regular
@@ -83,7 +83,7 @@
                  
             </div>
      
-        </section>
+        </div>
 
 </template>
 
@@ -103,7 +103,7 @@ export default {
    
 
 }
-.service{
+.service1{
     display: grid;
     grid-template-columns: 30% ;
     height: auto;
@@ -131,6 +131,8 @@ export default {
     font-family: Roboto Slab;
     font-weight: normal;
     font-size: 2.5rem;
+    padding-top: 110px;
+
 }
 
 
@@ -139,7 +141,7 @@ export default {
 
 /* notes*/
 
-.notes{
+.notes1{
   display: grid;
   grid-gap: 15px ;
   grid-template-columns: 30% 30% 30%;
@@ -152,7 +154,7 @@ export default {
 
 
 
-.note{
+.noteCard{
     
     background-color: #FFFFFF;
    
@@ -162,12 +164,12 @@ export default {
     text-align: center;
      font-size: 30px;
 }
-.note:hover{
+.noteCard:hover{
     
     
     box-shadow: 5px 10px 10px rgb(0, 0, 0, 0.16);
 }
-.icon {
+.iconCard {
     
   background-color: #25E6C8;
     padding: 15px;
@@ -176,19 +178,19 @@ export default {
     border-radius: 50%;
    
 }
-.icon:hover{
+.iconCard:hover{
     background-color:#2BAAEC;
 }
 
-.text{
+.text1{
     margin-top: 5%;
    
 }
-.text span{
+.text1 span{
     font-size: 22px;
    
 }
-.note p{
+.noteCard p{
       font-size: 12px;
     padding-left: 30%;
     padding-right: 30%;
@@ -196,10 +198,4 @@ export default {
     margin-top: 0;
  
 } 
-
-
-
-
-
-
 </style>
